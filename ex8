@@ -1,0 +1,23 @@
+/*
+00/00/2021
+Riya Singh
+The purpose of this program is to add two numbers
+*/
+
+#include <iostream> //allows program to perform input and output
+#include <string>
+
+int main()
+{
+    std::string str = "The Value ";
+	std::cout << "Enter first integer: "; //prompt user for data
+	int num;
+	std::cin >> num;
+	
+	int test = num%2;
+	if(test == 0)
+		std::cout << str << num << " is an even number." << std::endl;
+	else
+		std::cout << str << num << " is an odd number." << std::endl;
+}
+
